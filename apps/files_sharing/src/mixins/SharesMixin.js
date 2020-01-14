@@ -190,7 +190,7 @@ export default {
 		onNoteChange: debounce(function(note) {
 			this.share.note = note.trim()
 			this.queueUpdate('note')
-		}, 500),
+		}, 1000),
 
 		/**
 		 * Delete share button handler
